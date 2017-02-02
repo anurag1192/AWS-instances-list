@@ -1,5 +1,5 @@
 # AWS-instances-list
-Python Boto using aws api to get running instances in a region
+Python Boto using aws api to get running instances in a region (us-west-2)
 
 Run the program as follows
 
