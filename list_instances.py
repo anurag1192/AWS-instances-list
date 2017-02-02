@@ -4,7 +4,7 @@ import json
 def get_instances(tagkey):
     ec2client = boto3.client('ec2')
     instances_list = ec2client.describe_instances()
-    #print(instance_list["Reservations"])
+    #print instances_list["Reservations"]
     # temp list to store results with duplicates
     temp_list = []
     #reservation gets the instance details
